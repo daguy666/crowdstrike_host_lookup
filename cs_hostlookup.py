@@ -84,6 +84,8 @@ class CrowdStrike_Info_Gatherer(object):
             cs_version = i['agent_version']
             serial_number = i['serial_number']
         
+        # This is where the fun begins.
+
         output_string = r"""
                              
             |------------------------------------------------| 
