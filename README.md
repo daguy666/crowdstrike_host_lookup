@@ -26,6 +26,18 @@ This is a tool build to connect to the Crowdstrike API. This script will take a 
 ```
 
 
+### installation:
+`pip3 install -r requirements.txt`
+
+Specifically just the keyring library to interact with keychain. 
+
+<br>
+
+---
+
+
+<br>
+
 
 ```
 >>> import cs_hostlookup
